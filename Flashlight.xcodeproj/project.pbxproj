@@ -13,6 +13,7 @@
 		2F210D3127AFB747009DD733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F210D2F27AFB747009DD733 /* Main.storyboard */; };
 		2F210D3327AFB749009DD733 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F210D3227AFB749009DD733 /* Assets.xcassets */; };
 		2F210D3627AFB749009DD733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F210D3427AFB749009DD733 /* LaunchScreen.storyboard */; };
+		2F210D3F27AFCF71009DD733 /* switch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2F210D3E27AFCF71009DD733 /* switch.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2F210D3227AFB749009DD733 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F210D3527AFB749009DD733 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F210D3727AFB749009DD733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F210D3E27AFCF71009DD733 /* switch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = switch.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,17 @@
 				2F210D3227AFB749009DD733 /* Assets.xcassets */,
 				2F210D3427AFB749009DD733 /* LaunchScreen.storyboard */,
 				2F210D3727AFB749009DD733 /* Info.plist */,
+				2F210D3D27AFCF71009DD733 /* Sound */,
 			);
 			path = Flashlight;
+			sourceTree = "<group>";
+		};
+		2F210D3D27AFCF71009DD733 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				2F210D3E27AFCF71009DD733 /* switch.wav */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F210D3F27AFCF71009DD733 /* switch.wav in Resources */,
 				2F210D3627AFB749009DD733 /* LaunchScreen.storyboard in Resources */,
 				2F210D3327AFB749009DD733 /* Assets.xcassets in Resources */,
 				2F210D3127AFB747009DD733 /* Main.storyboard in Resources */,
@@ -289,6 +301,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B2F2JB38S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Flashlight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,6 +329,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B2F2JB38S;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Flashlight/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
